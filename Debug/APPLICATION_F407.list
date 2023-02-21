@@ -650,8 +650,8 @@ int main(void)
  806064e:	409a      	lsls	r2, r3
  8060650:	4b24      	ldr	r3, [pc, #144]	; (80606e4 <main+0xd0>)
  8060652:	615a      	str	r2, [r3, #20]
-		  HAL_Delay(20);
- 8060654:	2014      	movs	r0, #20
+		  HAL_Delay(30);
+ 8060654:	201e      	movs	r0, #30
  8060656:	f000 fac5 	bl	8060be4 <HAL_Delay>
 	  for(int i = 0; i<16; i++){
  806065a:	69fb      	ldr	r3, [r7, #28]
@@ -674,8 +674,8 @@ int main(void)
  8060674:	409a      	lsls	r2, r3
  8060676:	4b1b      	ldr	r3, [pc, #108]	; (80606e4 <main+0xd0>)
  8060678:	615a      	str	r2, [r3, #20]
-		  HAL_Delay(20);
- 806067a:	2014      	movs	r0, #20
+		  HAL_Delay(30);
+ 806067a:	201e      	movs	r0, #30
  806067c:	f000 fab2 	bl	8060be4 <HAL_Delay>
 	  for(int i = 0; i<16; i++){
  8060680:	69bb      	ldr	r3, [r7, #24]
@@ -698,8 +698,8 @@ int main(void)
  806069a:	409a      	lsls	r2, r3
  806069c:	4b11      	ldr	r3, [pc, #68]	; (80606e4 <main+0xd0>)
  806069e:	615a      	str	r2, [r3, #20]
-		  HAL_Delay(20);
- 80606a0:	2014      	movs	r0, #20
+		  HAL_Delay(30);
+ 80606a0:	201e      	movs	r0, #30
  80606a2:	f000 fa9f 	bl	8060be4 <HAL_Delay>
 	  for(int i = 0; i<16; i++){
  80606a6:	697b      	ldr	r3, [r7, #20]
@@ -722,8 +722,8 @@ int main(void)
  80606c0:	409a      	lsls	r2, r3
  80606c2:	4b08      	ldr	r3, [pc, #32]	; (80606e4 <main+0xd0>)
  80606c4:	615a      	str	r2, [r3, #20]
-		  HAL_Delay(20);
- 80606c6:	2014      	movs	r0, #20
+		  HAL_Delay(30);
+ 80606c6:	201e      	movs	r0, #30
  80606c8:	f000 fa8c 	bl	8060be4 <HAL_Delay>
 	  for(int i = 0; i<16; i++){
  80606cc:	693b      	ldr	r3, [r7, #16]

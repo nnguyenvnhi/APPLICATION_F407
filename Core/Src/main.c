@@ -142,22 +142,22 @@ int main(void)
 	  uint16_t cur = 0x0001;
 	  for(int i = 0; i<16; i++){
 		  GPIOE->ODR = cur<<i;
-		  HAL_Delay(20);
+		  HAL_Delay(30);
 	  }
 	  uint16_t cur1 = 0x0003;
 	  for(int i = 0; i<16; i++){
 		  GPIOE->ODR = cur1<<i;
-		  HAL_Delay(20);
+		  HAL_Delay(30);
 	  }
 	  uint16_t cur2 = 0x0007;
 	  for(int i = 0; i<16; i++){
 		  GPIOE->ODR = cur2<<i;
-		  HAL_Delay(20);
+		  HAL_Delay(30);
 	  }
 	  uint16_t cur3 = 0x000F;
 	  for(int i = 0; i<16; i++){
 		  GPIOE->ODR = cur3<<i;
-		  HAL_Delay(20);
+		  HAL_Delay(30);
 	  }
 //	  HAL_GPIO_TogglePin(GPIOD, GPIO_PIN_13);
 //	  HAL_GPIO_TogglePin(GPIOD, GPIO_PIN_14);
